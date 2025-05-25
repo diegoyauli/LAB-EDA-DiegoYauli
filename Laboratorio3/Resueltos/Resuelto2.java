@@ -1,4 +1,4 @@
-package Laboratorio3;
+package Laboratorio3.Resueltos;
 import java.util.ArrayList;
 import java.util.Iterator; 
 
