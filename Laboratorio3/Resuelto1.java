@@ -1,6 +1,5 @@
 package Laboratorio3;
 import java.util.ArrayList;
-import java.util.Iterator; 
 
 public class Resuelto1 { 
     public static void main(String[] args){

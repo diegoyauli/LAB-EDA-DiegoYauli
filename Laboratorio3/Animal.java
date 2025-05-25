@@ -1,9 +1,7 @@
 package Laboratorio3;
 //Resuelto 3
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class Animal {
     String nombre;
     boolean genero;
