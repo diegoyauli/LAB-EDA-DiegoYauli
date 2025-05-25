@@ -13,6 +13,5 @@ public class Resuelto1 {
         System.out.println(alumnos.hashCode()); 
         System.out.println(alumnos.isEmpty());  
         System.out.println(alumnos.size());     
-        }
     }
 }

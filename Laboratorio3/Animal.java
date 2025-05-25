@@ -1,5 +1,6 @@
 package Laboratorio3;
 //Resuelto 3
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,5 +27,10 @@ public class Animal {
         ArrayList<Animal> mascotas = new ArrayList<Animal>();
        // List<Animal> mascotas2 = new List<Animal>(); //No se puede instanciar directamente a una interfaz
         List<Animal> mascotas3 = new ArrayList<Animal>();
+        mascotas.add(new Animal("Toby", true));                        // ArrayList
+        System.out.println("ArrayList -> " + mascotas.get(0).getNombre());
+
+        mascotas3.add(new Animal("Luna", false));                      // List (interfaz)
+        System.out.println("List -> " + mascotas3.get(0).getNombre());
     }
 }
