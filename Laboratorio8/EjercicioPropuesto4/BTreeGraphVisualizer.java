@@ -32,11 +32,5 @@ public class BTreeGraphVisualizer {
         frame.pack();
         frame.setVisible(true);
     }
-
-    // Method to add nodes and edges based on BTree structure
-    private static void addGraphNodesAndEdges(BTree<Integer> bTree, SimpleGraph<String, DefaultEdge> graph) {
-        // Traverse the BTree and add nodes and edges accordingly
-        // (Convert BTree structure to graph representation)
-    }
 }
 
